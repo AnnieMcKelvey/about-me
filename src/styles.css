@@ -9,6 +9,7 @@ body {
   margin: 0 auto;
   background-attachment: fixed;
 }
+
 h1 {
   text-align: left;
   color: rgb(0, 17, 17);
@@ -61,12 +62,20 @@ h1 {
 }
 footer {
   display: block;
-  margin: 0 auto;
-  position: absolute;
-  left: 1%;
+
+  position: fixed;
+  left: 0%;
   bottom: 1%;
   color: white;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   letter-spacing: 1px;
+  background: linear-gradient(
+    30deg,
+    rgba(0, 110, 255, 0.473),
+    rgba(237, 243, 247, 0.178)
+  );
+  min-width: 100%;
+  padding: 10px;
+  padding-left: 20px;
 }
