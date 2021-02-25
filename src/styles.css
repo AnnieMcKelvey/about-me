@@ -1,0 +1,61 @@
+html,
+body {
+  background-image: url("../images/polzeath-sunset.jpg");
+  background-repeat: none;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  font-family: "Rock Salt", cursive;
+  margin: 0 auto;
+  background-attachment: fixed;
+}
+h1 {
+  text-align: left;
+  color: rgb(0, 17, 17);
+  font-size: 30px;
+  letter-spacing: 20px;
+  padding-left: 40px;
+  background: linear-gradient(
+    rgba(189, 188, 184, 0.116),
+    rgba(212, 193, 164, 0.103)
+  );
+  min-width: 100%;
+  border-radius: 0px;
+  letter-spacing: 7px;
+  font-weight: 200;
+}
+
+#first-intro {
+  font-family: "Raleway", sans-serif;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+#second-intro {
+  font-family: "Raleway", sans-serif;
+  padding: 20px 20px 20px 20px;
+  margin-left: 30px;
+
+  font-size: 20px;
+  margin-right: 50%;
+  background: linear-gradient(
+    rgba(189, 188, 184, 0.274),
+    rgba(212, 193, 164, 0.315)
+  );
+  border-radius: 2px;
+}
+
+#interests {
+  font-family: "Raleway", sans-serif;
+  padding: 20px 20px 20px 20px;
+  margin-left: 30px;
+
+  font-size: 20px;
+  margin-right: 50%;
+  background: linear-gradient(
+    rgba(189, 188, 184, 0.74),
+    rgba(212, 193, 164, 0.315)
+  );
+  border-radius: 2px;
+}
