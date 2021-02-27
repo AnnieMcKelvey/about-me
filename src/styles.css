@@ -1,6 +1,12 @@
 html,
 body {
-  background-image: url("../images/polzeath-sunset.jpg");
+  background-image: linear-gradient(
+      60deg,
+      rgba(255, 255, 255, 0.288),
+      rgba(245, 245, 245, 0.034)
+    ),
+    url("../images/polzeath-sunset.jpg");
+
   background-repeat: none;
   min-width: 100%;
   min-height: 100%;
@@ -26,48 +32,44 @@ h1 {
   font-weight: 200;
 }
 
-#first-intro {
+p,
+footer {
   font-family: "Raleway", sans-serif;
+}
+
+#first-intro {
   padding-left: 40px;
   padding-bottom: 20px;
   font-size: 25px;
 }
 
-#second-intro {
-  font-family: "Raleway", sans-serif;
-  padding: 20px 20px 20px 20px;
+#second-intro,
+#interests,
+.links {
   margin-left: 30px;
-
+  padding: 20px 20px 20px 20px;
   font-size: 20px;
   margin-right: 50%;
   background: linear-gradient(
-    rgba(189, 188, 184, 0.274),
+    rgba(216, 215, 211, 0.479),
     rgba(212, 193, 164, 0.315)
   );
   border-radius: 2px;
 }
 
-#interests {
-  font-family: "Raleway", sans-serif;
-  padding: 20px 20px 20px 20px;
-  margin-left: 30px;
+.links {
+  color: rgb(0, 0, 3);
+}
 
-  font-size: 20px;
-  margin-right: 50%;
-  background: linear-gradient(
-    rgba(189, 188, 184, 0.74),
-    rgba(212, 193, 164, 0.315)
-  );
-  border-radius: 2px;
+a {
+  color: #0a66c2;
 }
 footer {
   display: block;
 
-  position: fixed;
   left: 0%;
   bottom: 1%;
   color: white;
-  font-family: "Raleway", sans-serif;
   font-size: 15px;
   letter-spacing: 1px;
   background: linear-gradient(
